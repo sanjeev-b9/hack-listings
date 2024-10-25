@@ -8,7 +8,7 @@ import listings from '../data/listings'; // Mock data
 export default function Home() {
 
   const [listingsData, setListingsData] = useState([]);
-  const apiHost = 'http://localhost:5000';
+  const apiHost = 'https://hack-listings-server-sanjeev-hack-server.vercel.app';
 
   useEffect(() => {
     axios.get(apiHost+'/api/listings')  // Replace with your API endpoint
