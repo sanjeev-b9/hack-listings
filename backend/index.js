@@ -7,7 +7,7 @@ dotenv.config();
 
 const allowedOrigins = [
     'http://localhost:3000',
-    'https://hack-listings-client.vercel.app/'
+    'https://hack-listings-client.vercel.app'
 ];
 
 app.use((req, res, next) => {
